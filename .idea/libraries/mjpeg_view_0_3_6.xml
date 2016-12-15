@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="mjpeg-view-0.3.6">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/app/build/intermediates/exploded-aar/com.github.niqdev/mjpeg-view/0.3.6/res" />
+      <root url="jar://$PROJECT_DIR$/app/build/intermediates/exploded-aar/com.github.niqdev/mjpeg-view/0.3.6/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.niqdev/mjpeg-view/0.3.6/87c846f5cd88ba68bd8b0e6fb734896a6ac41f87/mjpeg-view-0.3.6-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

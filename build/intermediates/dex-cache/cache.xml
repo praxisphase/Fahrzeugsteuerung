@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="/home/basti/Android-Fahrzeugsteuerung/Fahrzeugsteuerung/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.0"
+        sha1="0874286cc2fd88d54fdf130e9d5372730da6de97">
+        <dex dex="/home/basti/Android-Fahrzeugsteuerung/Fahrzeugsteuerung/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-24.0.0_dba7f8329babd695b09910d87c11a3ff3acbe01a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/opt/android/sdk/extras/android/m2repository/com/android/support/support-annotations/24.0.0/support-annotations-24.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.0"
+        sha1="2943c74db6d4346ab8c6531adac91fa05c137c40">
+        <dex dex="/home/basti/Android-Fahrzeugsteuerung/Fahrzeugsteuerung/app/build/intermediates/pre-dexed/debug/support-annotations-24.0.0_62979607ef2e759ba8fccf282cd57147bd4588f8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/basti/Android-Fahrzeugsteuerung/Fahrzeugsteuerung/app/build/intermediates/exploded-aar/com.android.support/design/23.4.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.0"
+        sha1="5326d9a850d491714fef8cbfaa9ea3416f0bf0d2">
+        <dex dex="/home/basti/Android-Fahrzeugsteuerung/Fahrzeugsteuerung/app/build/intermediates/pre-dexed/debug/com.android.support-design-23.4.0_4f85e6e8c15748c7c48cce27a09050438a078465.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/opt/android-studio/gradle/m2repository/com/google/code/gson/gson/2.2.4/gson-2.2.4.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.0"
+        sha1="a60a5e993c98c864010053cb901b7eab25306568">
+        <dex dex="/home/basti/Android-Fahrzeugsteuerung/Fahrzeugsteuerung/app/build/intermediates/pre-dexed/debug/gson-2.2.4_ee0179183cc12d87b762899f0e71bd373d3fee7f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/basti/Android-Fahrzeugsteuerung/Fahrzeugsteuerung/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/24.0.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.0"
+        sha1="3bd97cfefd783e9de1dd1c30574a6adb44b4409b">
+        <dex dex="/home/basti/Android-Fahrzeugsteuerung/Fahrzeugsteuerung/app/build/intermediates/pre-dexed/debug/com.android.support-support-vector-drawable-24.0.0_f79315612897ec7afc6082ba1affc4d51fa0e61a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/basti/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.0.1/b34c1f2d993044656e87f88970b6818e99e886ba/okhttp-3.0.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.0"
+        sha1="b34c1f2d993044656e87f88970b6818e99e886ba">
+        <dex dex="/home/basti/Android-Fahrzeugsteuerung/Fahrzeugsteuerung/app/build/intermediates/pre-dexed/debug/okhttp-3.0.1_93618d4dad772d2c693a84a334ddc6b4ad881b85.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/basti/Android-Fahrzeugsteuerung/Fahrzeugsteuerung/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.0.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.0"
+        sha1="2f7e6e2dad1bccaf68a8820820adc6c0d5b96d37">
+        <dex dex="/home/basti/Android-Fahrzeugsteuerung/Fahrzeugsteuerung/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-24.0.0_b94caf7585ddca5ade14d371d494d457681bf5f0.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/basti/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp-ws/3.0.1/bd9b51a0188fc8f14bf840a0d326755545206116/okhttp-ws-3.0.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.0"
+        sha1="bd9b51a0188fc8f14bf840a0d326755545206116">
+        <dex dex="/home/basti/Android-Fahrzeugsteuerung/Fahrzeugsteuerung/app/build/intermediates/pre-dexed/debug/okhttp-ws-3.0.1_6d1d09c47f1509407f7554c7c4e97959da5705c5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/basti/Android-Fahrzeugsteuerung/Fahrzeugsteuerung/app/build/intermediates/exploded-aar/com.github.niqdev/mjpeg-view/0.3.6/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.0"
+        sha1="ff5e220d1d1e9fec0b1f9d6df35a012136444dfb">
+        <dex dex="/home/basti/Android-Fahrzeugsteuerung/Fahrzeugsteuerung/app/build/intermediates/pre-dexed/debug/com.github.niqdev-mjpeg-view-0.3.6_db8030debe008b2e645234b38faf238f56275cc8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/basti/.gradle/caches/modules-2/files-2.1/io.socket/socket.io-client/0.7.0/ce278c97bc9f74c7945d647f6d441d6013163362/socket.io-client-0.7.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.0"
+        sha1="ce278c97bc9f74c7945d647f6d441d6013163362">
+        <dex dex="/home/basti/Android-Fahrzeugsteuerung/Fahrzeugsteuerung/app/build/intermediates/pre-dexed/debug/socket.io-client-0.7.0_2eb4d0b6394457bfcddd4b130f5d592cfffc7eea.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/basti/.gradle/caches/modules-2/files-2.1/io.reactivex/rxjava/1.1.6/2586312cd2b8a511e4c6236736f5a039fc0f2273/rxjava-1.1.6.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.0"
+        sha1="2586312cd2b8a511e4c6236736f5a039fc0f2273">
+        <dex dex="/home/basti/Android-Fahrzeugsteuerung/Fahrzeugsteuerung/app/build/intermediates/pre-dexed/debug/rxjava-1.1.6_eda0d3c5f3169dbe85650e3359daead8c30d99b4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/basti/Android-Fahrzeugsteuerung/Fahrzeugsteuerung/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.0.0/jars/libs/internal_impl-24.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.0"
+        sha1="fcaf463e10e69c1923ccf1edeba3b4196d239e00">
+        <dex dex="/home/basti/Android-Fahrzeugsteuerung/Fahrzeugsteuerung/app/build/intermediates/pre-dexed/debug/internal_impl-24.0.0_206923d6dba485d3ba4536859686246456b81e18.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/basti/Android-Fahrzeugsteuerung/Fahrzeugsteuerung/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/24.0.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.0"
+        sha1="e70f608219ed6b974644c333249ab2bb7b71de98">
+        <dex dex="/home/basti/Android-Fahrzeugsteuerung/Fahrzeugsteuerung/app/build/intermediates/pre-dexed/debug/com.android.support-animated-vector-drawable-24.0.0_b41b50b5c341e95eb38314ae1d15632c7f5f384e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/basti/.gradle/caches/modules-2/files-2.1/io.socket/engine.io-client/0.7.0/c1b1d30e2d2231b2eae1438a44943a409b976dac/engine.io-client-0.7.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.0"
+        sha1="c1b1d30e2d2231b2eae1438a44943a409b976dac">
+        <dex dex="/home/basti/Android-Fahrzeugsteuerung/Fahrzeugsteuerung/app/build/intermediates/pre-dexed/debug/engine.io-client-0.7.0_540713a02efb523fb943b37d1491100f01563543.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/basti/Android-Fahrzeugsteuerung/Fahrzeugsteuerung/app/build/intermediates/exploded-aar/io.reactivex/rxandroid/1.2.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.0"
+        sha1="5a2386ad9bfff580b206a7fe305cdccd00798159">
+        <dex dex="/home/basti/Android-Fahrzeugsteuerung/Fahrzeugsteuerung/app/build/intermediates/pre-dexed/debug/io.reactivex-rxandroid-1.2.1_314e7ebe418c62f8145cb2490b5caf29d7ffa601.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/basti/Android-Fahrzeugsteuerung/Fahrzeugsteuerung/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.4.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.0"
+        sha1="ec75036c3c52e451d0cde50a5aedaf5fd32354a0">
+        <dex dex="/home/basti/Android-Fahrzeugsteuerung/Fahrzeugsteuerung/app/build/intermediates/pre-dexed/debug/com.android.support-recyclerview-v7-23.4.0_9391fa333b879e26d124363524dbbfd96a86476b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/basti/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.6.0/98476622f10715998eacf9240d6b479f12c66143/okio-1.6.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.0"
+        sha1="98476622f10715998eacf9240d6b479f12c66143">
+        <dex dex="/home/basti/Android-Fahrzeugsteuerung/Fahrzeugsteuerung/app/build/intermediates/pre-dexed/debug/okio-1.6.0_c4832bb5868c561149fc6fe90cd25f8bfd195c93.jar" />
+    </item>
+
+</items>

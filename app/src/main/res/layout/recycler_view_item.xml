@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingTop="16dp" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/recyclerViewItemTextViewVehicleName"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_toLeftOf="@+id/recyclerViewButtonItemContext"
+        android:layout_toStartOf="@+id/recyclerViewButtonItemContext" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginEnd="10dp"
+        android:text="@string/adresse"
+        android:id="@+id/recyclerViewItemTextViewAddress"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/recyclerViewItemTextViewVehicleName" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/recyclerViewItemTextViewVehicleUrl"
+        android:layout_alignBaseline="@id/recyclerViewItemTextViewAddress"
+        android:layout_toEndOf="@id/recyclerViewItemTextViewAddress"
+        android:layout_toRightOf="@id/recyclerViewItemTextViewAddress"
+        android:layout_toLeftOf="@id/recyclerViewButtonItemContext"
+        android:layout_toStartOf="@id/recyclerViewButtonItemContext"/>
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/recyclerViewButtonItemContext"
+        android:src="@drawable/ic_more"
+        android:background="@null"
+        android:layout_gravity="end"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:padding="10dp"
+        android:contentDescription="@string/menue"
+        />
+
+</RelativeLayout>

@@ -1,0 +1,49 @@
+<resources>
+    <string name="app_name">Fahrzeugsteuerung</string>
+    <string name="kein_fahrzeug">Sie haben noch kein Fahrzeug eingetragen.</string>
+    <string name="kein_fahrzeug_fahrzeugname_und_ip">Bitte geben Sie Ihre Fahrzeugdaten ein.</string>
+    <string name="kein_fahrzeug_fahrzeugname">Fahrzeugname</string>
+    <string name="kein_fahrzeug_ip_adresse">Fahrzeug-Url</string>
+    <string name="kein_fahrzeug_eintragen">Eintragen</string>
+    <string name="mehrere_fahrzeuge">Sie haben mehrere Fahrzeuge eingetragen.</string>
+    <string name="mehrere_fahrzeuge_chose_one">Bitte wählen Sie ein Fahrzeug.</string>
+    <string name="mehrere_fahrzeuge_chose">Auswählen</string>
+    <string name="myPopupWindowEditTextSearch">Fahrzeugname</string>
+
+    <string name="dialog">Es ist schon ein Fahrzeug mit dieser Adresse vorhanden.\n\nMöchten Sie das vorhandene Fahrzeug löschen?</string>
+    <string name="loeschen">Löschen</string>
+    <string name="abbrechen">Abbrechen</string>
+    <string name="speichern">Speichern</string>
+    <string name="eintragen">Eintragen</string>
+    <string name="rueckgaengig">Rückgängig</string>
+    <string name="kein_fahrzeug_key">Fahrzeug-Key</string>
+    <string name="geschwindigkeit">Geschwindigkeit: </string>
+    <string name="lenkung">Lenkung:</string>
+    <string name="fahrzeugSuchen">Fahrzeug suchen</string>
+    <string name="verbindung_zum_fahrzeug_abgebrochen">Die Verbindung zum Fahrzeug ist abgebrochen</string>
+    <string name="fahrzeug_key_hint">Nur bei geändertem Key ausfüllen</string>
+    <string name="fahrzeug_eingetragen">Fahrzeug wurde eingetragen</string>
+    <string name="fahrzeug_bearbeitet">Fahrzeug wurde bearbeitet</string>
+    <string name="keine_verbindung_zum_fahrzeug">Es konnte keine Verbindung zum Fahrzeug hergestellt werden.</string>
+    <string name="fahrzeug_dennoch_eintragen">Möchten Sie das Fahrzeug dennoch eintragen?</string>
+    <string name="geben_sie_einen_namen_ein">Bitte geben Sie einen Namen für Ihr Fahrzeug ein.</string>
+    <string name="fahrzeugname_vorhanden">Es ist schon ein Fahrzeug mit diesem Namen vorhanden.</string>
+    <string name="bitte_richtige_url">Bitte geben Sie eine richtige URL ein.</string>
+    <string name="fahrzeug_geloescht">Fahrzeug wurde gelöscht</string>
+    <string name="adresse">Adresse:</string>
+    <string name="menue">Menü</string>
+    <string name="fahrzeug">Fahrzeug:</string>
+    <string name="verbindung_zum_fahrzeug_wird_hergestellt">Verbindung zum Fahrzeug wird hergestellt.</string>
+    <string name="keine_berechtigung">Sie haben keine Berechtigung dieses Fahrzeug zu steuern.</string>
+    <string name="verwerfen">Fahrzeug verwerfen</string>
+    <string name="anderes_passwort">Passwort ändern</string>
+    <string name="weitere_optionen_einblenden">Weitere Optionen einblenden</string>
+    <string name="anzahl_geschwindigkeits_reglerwerte">Anzahl Geschwindigkeits-Reglerwerte:</string>
+    <string name="geschwindigkeitsregler_invertieren">Geschwindigkeitsregler invertieren:</string>
+    <string name="anzahl_lenkungs_reglerwerte">Anzahl Lenkungs-Reglerwerte:</string>
+    <string name="lenkungsreglerwerte_invertieren">Lenkungsregler invertieren:</string>
+    <string name="weniger_optionen_anzeigen">Weniger Optionen anzeigen</string>
+    <string name="bearbeitung_verwerfen">Änderungen verwerfen</string>
+    <string name="kmh">Km/H</string>
+
+</resources>

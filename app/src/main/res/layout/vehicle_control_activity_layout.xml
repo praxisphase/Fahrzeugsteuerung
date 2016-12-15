@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/vehicleControlActivityLayoutCoordinatorLayout"
+    tools:context=".activitys.VehicleControlActivity">
+
+    <RelativeLayout
+        xmlns:slideControl="http://schemas.android.com/apk/res-auto"
+        xmlns:stream="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".activitys.VehicleControlActivity">
+
+        <com.github.niqdev.mjpeg.MjpegSurfaceView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/vehicleControlActivityLayoutMjpegView"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentTop="true"
+            stream:type="stream_default" />
+
+
+        <android.support.design.widget.FloatingActionButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_change"
+            android:layout_gravity="top|start"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:layout_marginStart="@dimen/activity_horizontal_margin"
+            android:layout_marginTop="@dimen/activity_vertical_margin"
+            android:id="@+id/vehicleControlActivityLayoutFloatingButton"
+            android:clickable="true"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/vehicleControlActivityLayoutTextView"
+            android:text="@string/fahrzeug"
+            android:layout_toStartOf="@+id/vehicleControlActivityLayoutTextViewVehicleName"
+            android:layout_toLeftOf="@+id/vehicleControlActivityLayoutTextViewVehicleName"
+            android:layout_toRightOf="@+id/vehicleControlActivityLayoutFloatingButton"
+            android:layout_toEndOf="@+id/vehicleControlActivityLayoutFloatingButton"
+            android:gravity="end"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="@dimen/activity_vertical_margin"
+            android:layout_marginRight="10dp"
+            android:layout_marginEnd="10dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/vehicleControlActivityLayoutTextViewVehicleName"
+            android:maxWidth="300dp"
+            android:maxLines="1"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginRight="@dimen/activity_horizontal_margin"
+            android:layout_marginEnd="@dimen/activity_horizontal_margin"
+            android:layout_marginTop="@dimen/activity_vertical_margin"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/vehicleControlActivityLayoutTextViewSpeed"
+            android:text="@string/geschwindigkeit"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginRight="@dimen/activity_horizontal_margin"
+            android:layout_marginEnd="@dimen/activity_horizontal_margin"
+            android:layout_below="@+id/vehicleControlActivityLayoutTextView"/>
+
+        <fh.praxisphase.fahrzeugsteuerung.utility.SlideControl
+            android:layout_width="@dimen/slideControlWidth"
+            android:layout_height="300dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="20dp"
+            android:layout_marginEnd="20dp"
+            android:id="@+id/vehicleControlActivityLayoutSlideControlSpeed"
+            slideControl:anzahlPositionen="25"
+            slideControl:sliderOrientation="vertical"
+            slideControl:sliderSize="100"
+            slideControl:controlerColor="@color/colorAccent"
+            slideControl:sliderColor="@color/colorAccent"/>
+
+        <fh.praxisphase.fahrzeugsteuerung.utility.SlideControl
+            android:id="@+id/vehicleControlActivityLayoutSlideControlSteering"
+            android:layout_width="@dimen/sliedControlHeight"
+            android:layout_height="@dimen/slideControlWidth"
+            android:layout_marginLeft="20dp"
+            android:layout_marginStart="20dp"
+            android:layout_alignBottom="@+id/vehicleControlActivityLayoutSlideControlSpeed"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            slideControl:anzahlPositionen="25"
+            slideControl:sliderOrientation="horizontal"
+            slideControl:sliderSize="100"
+            slideControl:controlerColor="@color/colorAccent"
+            slideControl:sliderColor="@color/colorAccent" />
+    </RelativeLayout>
+</android.support.design.widget.CoordinatorLayout>
